@@ -1,0 +1,96 @@
+body { font-family: 'DaxOT-Light'; font-size: 14px; color: #212121; background-color: #ffffff; -webkit-overflow-scrolling: touch;-webkit-font-smoothing: antialiased;}
+
+/* Titles */
+h1, h2, h3 {font-family: 'DaxOT-Medium'; color: #0072bc; }
+h4, h5, h6 {font-family: 'DaxOT-Medium'; color: #212121;  }
+
+
+
+
+/* Paragraph & Typographic */
+p {  font-family: 'DaxOT-Light'; font-size: 16px; line-height: normal; margin-bottom: 20px; }
+.centred { text-align: center; }
+
+/* Links */
+a , button{transition: color 0.1s ease-in, background 0.1s ease-in;word-wrap: break-word;outline:none; }
+a:hover, a:focus { text-decoration:none;}
+a:before, a:after { }
+
+
+/* Bootstrap Class Override */
+.btn{border-radius: 0; background-color: #0072bc;  color: #fff; font-size: 15px; font-family: 'DaxOT-Regular'; min-width: 140px; }
+.btnWhite{background-color:#f2f2f2!important; color:#0072bc!important;}
+.btn:hover{color:#fff;}
+hr{ margin-top: 0px; margin-bottom: 10px;}
+
+/* Totals */
+.yourInvest{
+	border: 0 none !important;
+}
+.yourInvestAmt, .maturityValAmt, .intersEarnAmt {
+	color: #2077ac;
+	font-size: 18px;
+	font-family: "DaxOT-Medium";
+}
+.amoutDesc {
+	color: #808080;
+}
+.SummaryDetails{
+	border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    margin-top: 20px;
+    padding: 15px 0;
+	background-color: aliceblue;
+}
+.yourInvest, .maturityVal, .intersEarn, .inflationVal {
+	border-left: 1px solid #dddddd;
+	float: left;
+	padding: 0px 5px;
+	width: 32.3333%;
+}
+.amoutDesc a {
+	color: #808080 !important;
+	text-decoration: underline;
+}
+.summary-res{ height: 10em; }
+.padl10 {	padding: 0 0 10px 0;}
+
+/** customize slider **/
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    background: blue;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+p#years {
+    position: absolute;
+    right: 20px;
+    top: -20px;
+}
+p#years span{
+    font-weight: bold;
+}
